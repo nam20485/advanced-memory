@@ -7,7 +7,7 @@ This application implements an advanced agentic memory system that combines grap
 It is implemented as an MCP Server and tools.
 
 See this document for a comprehensive description, and implemenation options, and plans:
-[Combining GraphRAG and Mem0](https://docs.google.com/document/d/1xM0SzmHed6YF3hf2PVXS1tcOHDJTMMi9V9hoN8oCpGc/edit?usp=sharing)
+[Combining GraphRAG and Mem0](./Combining%20GraphRAG%20and%20Mem0_.md)
 
 ## Development Plan
 

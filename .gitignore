@@ -11,6 +11,74 @@
 *.sln.docstates
 *.env
 
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Advanced Memory System specific
+data/
+logs/
+*.db
+*.sqlite
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+
+# Docker
+.dockerignore
+
+# Monitoring data
+prometheus_data/
+grafana_data/
+
+# Neo4j data
+neo4j_data/
+neo4j_logs/
+neo4j_import/
+neo4j_plugins/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

@@ -1,0 +1,7 @@
+# Example terraform.tfvars file
+# Copy this to terraform.tfvars and fill in your actual values
+
+environment      = "development"
+openai_api_key   = "your_openai_api_key_here"
+mem0_api_key     = "your_mem0_api_key_here"  # Optional
+neo4j_password   = "your_secure_neo4j_password"
