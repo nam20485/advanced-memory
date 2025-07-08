@@ -102,7 +102,7 @@ The advanced-memory application has been successfully implemented according to t
 
 ## File Structure
 
-```
+```text
 advanced-memory/
 ├── src/advanced_memory/           # Core application code
 │   ├── __init__.py

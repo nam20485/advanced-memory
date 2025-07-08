@@ -187,7 +187,7 @@ The MCP server will be available at `http://localhost:8080` with the following e
 
 ### System Components
 
-```
+```text
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
 │   AI Agent      │    │   MCP Server     │    │   Neo4j DB      │
 │                 │◄──►│                  │◄──►│   (GraphRAG)    │
