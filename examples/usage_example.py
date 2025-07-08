@@ -48,7 +48,7 @@ class AdvancedMemoryClient:
         self, 
         query: str, 
         search_type: str = "local",
-        user_context: str = None
+        user_context: str = ""
     ) -> str:
         """
         Query the knowledge base.
@@ -75,7 +75,7 @@ class AdvancedMemoryClient:
         self, 
         user_id: str, 
         conversation: list,
-        metadata: Dict[str, Any] = None
+        metadata: Dict[str, Any] = {}
     ) -> Dict[str, Any]:
         """
         Add a conversation to user memory.
